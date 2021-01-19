@@ -48,7 +48,7 @@ h2 + p {
     padding: 20px 0;
 }
 .title {
-    margin: 20px 0 40px;
+    margin: 20px 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,7 +114,7 @@ img {
 footer {
     font-size: 11px;
     text-align: center;
-    margin: 10px 0 10px;
+    margin: 20px 0 10px;
 }
 footer a {
     color: #3E52A3;
