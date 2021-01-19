@@ -30,9 +30,9 @@ body {
 /* Title */
 h1, h2 {
     font-size: 36px;
-    color: #4C4E61;
     line-height: 1.3;
     text-align: center;
+    color: #4C4E61;
 }
 h1 {
     font-weight: 200;
@@ -41,25 +41,20 @@ h2 {
     font-weight: 600;
 }
 h2 + p {
+    line-height: 1.7;
+    text-align: center;
     width: 80%;
     max-width: 500px;
     padding: 20px 0;
-    line-height: 1.7;
-    text-align: center;
 }
 .title {
+    margin: 20px 0 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px 0;
 }
 
 /* Features Section */
-h3 {
-    font-size: 18px;
-    font-weight: 600;
-    color: #4C4E61;
-}
 section {
     display: flex;
     flex-direction: column;
@@ -68,11 +63,11 @@ section {
     gap: 30px;
 }
 article {
+    width: 80%;
+    max-width: 350px;
     border-top: 4px solid;
     border-radius: 6px;
     box-shadow: 0 10px 30px rgba(76, 78, 97, 0.2);
-    width: 80%;
-    max-width: 350px;
     padding: 30px;
     flex: 0 1 230px;
     display: flex;
@@ -90,30 +85,36 @@ article:nth-of-type(3) {
 article:last-of-type {
     border-color: #549EF2;
 }
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4C4E61;
+}
 article p {
     font-size: 13px;
     line-height: 1.7em;
     padding-top: 10px;
 }
-.feature-description {
-    flex: 1 0 100%;
-}
-.feature-icon {
-    align-self: flex-end;
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
 img {
     width: 64px;
     height: 64px;
 }
+.feature-description {
+    flex: 1 0 100%;
+}
+.feature-icon {
+    width: 100%;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+
 /* ----------------------- FOOTER --------------------------- */
 
 footer {
     font-size: 11px;
     text-align: center;
-    margin: 40px 0 10px;
+    margin: 10px 0 10px;
 }
 footer a {
     color: #3E52A3;
